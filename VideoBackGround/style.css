@@ -1,0 +1,39 @@
+@import url('');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.container video {
+    
+    width: fit-content;
+    height: auto;
+}
+
+.text-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: 900;
+
+    /*video inside the text */
+    mix-blend-mode: multiply;
+
+}
